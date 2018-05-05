@@ -11,14 +11,14 @@ public class SmurfRunner {
 		 */
 		Smurf handyman = new Smurf("handyman");
 		handyman.eat();
-		handyman.getName();
+		System.out.println(handyman.getName());
 		Smurf papasmurf = new Smurf("papasmurf");
-		papasmurf.getName();
-		papasmurf.getHatColor();
-		papasmurf.isGirlOrBoy();
+		System.out.println(papasmurf.getName());
+		System.out.println("papasmurf's hat is " + papasmurf.getHatColor());
+		System.out.println("papasmurf is a  " + papasmurf.isGirlOrBoy());
 		Smurf smurfette = new Smurf("smurfette");
-		smurfette.getName();
-		smurfette.getHatColor();
-		smurfette.isGirlOrBoy();
+		System.out.println(smurfette.getName());
+		System.out.println("smurfette's hat is " + smurfette.getHatColor());
+		System.out.println("smurfette is a " + smurfette.isGirlOrBoy());
 	}
 }
